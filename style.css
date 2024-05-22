@@ -1143,17 +1143,17 @@ to{
   flex-direction: column;
   flex-wrap: nowrap;
   color:whitesmoke;
-  font-size: 30px;
+  font-size: 17px;
   line-height: 1.5;
   display:inline-block;
   background-color: black;
   text-align: center;
-  padding: 5rem;
+  padding: 3rem;
   border-radius: 50px;
   margin-top: 1500px;
-  margin-left: 10%;
+  margin-left: 3%;
   justify-content: center;
-  width: 800px;
+  width: 280px;
   height: auto;
   opacity:3;
   animation: div;
@@ -1180,8 +1180,8 @@ to{
 }
 
 .about-me img{
-height: 400px;
-width: 400px;
+height: 150px;
+width: 150px;
 border: 10px  red;
 border-style:double;
 border-top-color: blue;
