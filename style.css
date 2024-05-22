@@ -1696,8 +1696,8 @@ nav ul {
 nav ul li {
   top: 0;
   display:inline-block;
-  padding-inline: 25px;
-  padding-bottom: 20px;
+  padding-inline: 15px;
+  padding-bottom: 18px;
   border-bottom: 5px solid transparent;
 }
 
