@@ -1697,14 +1697,13 @@ nav ul li {
   top: 0;
   display:inline-block;
   padding-inline: 8px;
-  padding-bottom: 10px;
+  padding-bottom: 20;
   border-bottom: 5px solid transparent;
 }
 
 nav ul li a {
   color: White;
   text-decoration: none;
-  font-size: 5px;
   transition: 0.4s;
 }
 
