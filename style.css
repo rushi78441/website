@@ -1709,7 +1709,7 @@ nav ul li a {
 }
 
 nav ul li:hover{
-   padding-bottom: 20px;
+   padding-bottom: 10px;
 } 
 
 nav ul li:hover a{
