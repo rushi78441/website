@@ -1015,6 +1015,10 @@ body {
   margin-top: 200px;
 }
 
+.myname p, .myname h1{
+  font-size: medium;
+}
+
 .social-links{
   margin-left: 10%;
 }
