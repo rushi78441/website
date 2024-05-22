@@ -1316,7 +1316,7 @@ to{
 .projects-div{
 z-index: 2;
 height: auto;
-width: 600px;
+width: 280px;
 animation: input;
 animation-duration:3s;
 }
@@ -1335,9 +1335,9 @@ to{
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  margin-left: 60px;
+  margin-left: 10px;
   margin-bottom: 40px;
-  font-size: 35px;
+  font-size: 15px;
   text-align:justify;
 }
 
