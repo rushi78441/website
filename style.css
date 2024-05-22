@@ -1148,10 +1148,10 @@ to{
   display:inline-block;
   background-color: black;
   text-align: center;
-  padding: 3rem;
+  padding: 4rem;
   border-radius: 50px;
   margin-top: 800px;
-  margin-left: 3%;
+  margin-left: 4%;
   justify-content: center;
   width: 300px;
   height: auto;
@@ -1292,8 +1292,8 @@ to{
   margin-top: -120px;
   padding: 8%;
   padding-top: 75px;
-  margin-left: 10%;
-  width: 800px;
+  margin-left: 4%;
+  width: 300px;
   height: auto;
   opacity:3;
   animation: div;
@@ -1384,8 +1384,8 @@ box-shadow: 0px 0px 30px blue;
   flex-direction: column;
   flex-wrap: nowrap;
   margin-left: 85px;
-  height: 300px;
-  width: 500px;
+  height: 200px;
+  width: 300px;
   margin-top: -50px;
 }
 
