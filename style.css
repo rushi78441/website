@@ -1012,7 +1012,7 @@ body {
 }
 
 .myname{
-  margin-top: 600px;
+  margin-top: 200px;
 }
 
 .social-links{
@@ -1031,9 +1031,9 @@ body {
   }
 
 .insta{
-  height: 65px;
-  width: 65px;
-  margin-right: 30px;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
   border-radius: 55%;
   animation: input 4s;
   transition-duration: 0.4s;
@@ -1050,8 +1050,8 @@ body {
   }
 
 .linkdin{
-  height: 63px;
-  width: 65px;
+  height: 40px;
+  width: 40px;
   margin-right: 20px;
   border-radius: 55%;
   animation: input 4s;
@@ -1070,8 +1070,8 @@ body {
 
 .x{
   margin-bottom: -6px;
-  height: 70px;
-  width: 85px;
+  height: 40px;
+  width: 45px;
   border-radius: 55%;
   animation: input 4s;
   transition-duration: 0.4s;
@@ -1088,9 +1088,9 @@ body {
   }
 
 .github{
-  height: 60px;
+  height: 40px;
   margin-left: 20px;
-  width: 65px;
+  width: 45px;
   border-radius: 55%;
   animation: input 4s;
   transition-duration: 0.4s;
