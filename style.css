@@ -998,7 +998,7 @@ body {
   place-items: center;
   background-image: url(Images/Untitleddesign1.jpg);
   background-attachment: fixed;
-  background-size:auto;
+  background-size:cover;
   background-repeat: no-repeat;
   color:white;
   line-height: 1.3;
