@@ -1127,11 +1127,11 @@ to{
 }
 
 #about{
-  scroll-margin-top: -1500px;
+  scroll-margin-top: -700px;
 }
 
 #projects{
-  scroll-margin-top: 400px;
+  scroll-margin-top: 200px;
 }
 
 #resume{
@@ -1153,7 +1153,7 @@ to{
   margin-top: 800px;
   margin-left: 4%;
   justify-content: center;
-  width: 300px;
+  width: 320px;
   height: auto;
   opacity:3;
   animation: div;
@@ -1293,7 +1293,7 @@ to{
   padding: 8%;
   padding-top: 75px;
   margin-left: 4%;
-  width: 300px;
+  width: 320px;
   height: auto;
   opacity:3;
   animation: div;
@@ -1316,7 +1316,7 @@ to{
 .projects-div{
 z-index: 2;
 height: auto;
-width: 280px;
+width: 260px;
 animation: input;
 animation-duration:3s;
 }
@@ -1335,7 +1335,7 @@ to{
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  margin-left: 10px;
+  margin-left: 2px;
   margin-bottom: 40px;
   font-size: 15px;
   text-align:justify;
@@ -1360,16 +1360,16 @@ align-items: center;
 place-items: center;
 justify-content: center;
 justify-items: center;
-font-size: 27px;
+font-size: 18px;
 transition-duration: 0.8s;
 text-decoration: none;
 color: azure;
 text-align: center;
 background-color:  rgba(110, 97, 97, 0.433);
 border-radius: 10px;
-margin-left: 160px;
-width: 350px;
-height: 60px;
+margin-left: 60px;
+width:  150px;
+height: 40px;
 animation: input;
 animation-duration: 3s;
 }
@@ -1383,9 +1383,9 @@ box-shadow: 0px 0px 30px blue;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  margin-left: 85px;
-  height: 200px;
-  width: 300px;
+  margin-left: 4px;
+  height: 180px;
+  width: 260px;
   margin-top: -50px;
 }
 
@@ -1420,7 +1420,7 @@ width: 600px;
   margin-top: 400px;
   margin-left: 10%;
   justify-content: center;
-  width: 800px;
+  width: 320px;
   height: auto;
   opacity:3;
   animation: div;
@@ -1452,7 +1452,7 @@ width: 600px;
   margin-bottom: 600px;
   margin-left: 10%;
   justify-content: center;
-  width: 800px;
+  width: 340px;
   height: auto;
   opacity:3;
   animation: div;
@@ -1471,9 +1471,9 @@ td{
   place-items: center;
   animation: text;
   text-align: start;
-  margin-left: 200px;
+  margin-left: -15px;
   animation-duration: 4s;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 @keyframes input{
@@ -1497,7 +1497,7 @@ td input{
   border: 5px solid transparent;
   box-shadow: 0px 0px 10px white;
   animation-duration: 4s;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   background-color: rgba(0, 0, 0, 0.563);
   margin-bottom: 40px;
@@ -1524,7 +1524,7 @@ td textarea{
   border: 5px solid transparent;
   box-shadow: 0px 0px 10px white;
   animation-duration: 4s;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   background-color: rgba(0, 0, 0, 0.563);
   margin-bottom: 40px;
@@ -1689,6 +1689,7 @@ nav ul {
   top: 0;
   padding-top: 20px;
   margin: 0;
+  margin-left: 40px;
   justify-content: space-between;
   text-align: start;
 }
