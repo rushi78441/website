@@ -1719,6 +1719,227 @@ nav ul li:hover a{
 
 /* Main content styles */
 
+.document-page{
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 75px 75px 75px;
+  place-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  height: 500px;
+  width: 300px;
+  border-radius: 25px;
+  margin-bottom: 300px;
+  background-color: rgba(0, 0, 0, 0.57);
+  align-items: center;
+}
+
+.document-page img{
+  grid-row: 1.5/3.5;
+  grid-column: 1/2;
+  height: 200px;
+  width: 240px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px white;
+  margin-top: 70px;
+  margin-left: -4px;
+  margin-bottom: 70px;
+}
+
+.documents-card1 {
+  grid-row: 3/3;
+  grid-column: 1/1;
+  place-items: center;
+  place-content: justify;
+  align-items: center;
+  padding: 1%;
+  margin-left: -37px;
+  padding-left: 20%;
+  margin-top: 97px;
+  border-bottom-left-radius: 25px;
+  height: 200px;
+  width: 98px;
+  background-color: rgba(12, 15, 104, 0.666);
+  font-size: small;
+}
+
+.documents-card2 {
+  grid-row: 3/3;
+  grid-column: 2/2;
+  place-items: center;
+  align-items: center;
+  padding: 1%;
+  padding-left: 20%;
+  margin-top: 97px;
+  margin-left: -10px;
+  height: 200px;
+  width: 98px;
+  background-color: rgba(12, 15, 104, 0.666);
+  font-size: small;
+}
+
+.documents-card3 {
+  grid-row: 3/3;
+  grid-column: 3/3;
+  place-items: center;
+  padding: 1%;
+  padding-left: 20%;
+  margin-top: 97px;
+  border-bottom-right-radius: 25px;
+  align-items: center;
+  margin-left: 17px;
+  height: 200px;
+  width: 95.45px;
+  background-color: rgba(12, 15, 104, 0.666);
+  font-size: small;
+}
+
+.btn button {
+  text-decoration: none;
+  height:35px;
+  color: white;
+  font-size: 10px;
+  background-color: rgb(163, 6, 22);
+  width:60px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 3px solid transparent;
+  transition-duration:0.5s ;
+}
+
+.btn button:hover{
+  background-color: rgb(255, 230, 0);
+  box-shadow: 0px 0px 15px rgb(255, 230, 0);
+  color: black;
+}
+
+
+.projectheader{
+  display: flex;
+  place-content: center;
+  text-align: center;
+  font-size: 30px;
+  top: 0;
+  align-items: center;
+  align-content: center;
+  position: sticky;
+  z-index: 3;
+  height:60px;
+}
+
+.watch-project{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height:auto;
+  font-size: 20px;
+  margin-top: 100px;
+  place-content: center;
+  place-items: center;
+  align-items: center;
+}
+
+.project-card{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height:auto;
+  margin-bottom: 130px;
+  font-size: 10px;
+  place-content: center;
+  place-items: center;
+  align-items: center; 
+}
+
+.project-card section{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height:auto;
+  margin-top: -100px;
+  width: 300px;
+  background-color: black;
+  border-radius: 25px;
+  font-size: 10px;
+  place-content: center;
+  place-items: center;
+  align-items: center; 
+}
+
+.project-card img{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-align: justify;
+  margin-left: 8px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  height:180px;
+  width: 250px;
+  font-size: medium;
+}
+
+.project-card p{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-align: justify;
+  height:auto;
+  margin-right: 25px;
+  width: 260px;
+  margin-top: 50px;
+  font-size: medium;
+}
+
+.projects-page{
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  scroll-margin-top: 250px;
+}
+
+.project-card a{
+  text-decoration: none;
+}
+
+.project-card button{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  height:38px;
+  width: 150px;
+  background-color: rgb(103, 188, 19);
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  border: 5px solid transparent;
+  place-content: center;
+  place-items: center;
+  align-items: center; 
+  transition-duration: 0.5s;
+}
+
+.project-card button:hover{
+  height:38px;
+  width: 150px;
+  background-color: rgb(255, 94, 0);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  box-shadow: 0px 0px 20px tomato;
+  place-content: center;
+  place-items: center;
+  align-items: center; 
+}
 
 /* Footer styles */
 
