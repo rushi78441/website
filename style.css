@@ -530,7 +530,7 @@ animation: input;
 animation-duration: 4s;
 border-radius: 20px;
 width: 600px;
-margin-left: -20px;
+margin-left: -10px;
 font-size: medium;
 text-align:start;
 }
@@ -538,7 +538,7 @@ text-align:start;
 .resume p span{
   font-size: large;
   color: yellow;
-  margin-left: -20px;
+  margin-left: -10px;
 }
 
 .resume-page{
