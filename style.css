@@ -1534,7 +1534,7 @@ td textarea{
   justify-content: center;
   animation: input;
   border-radius: 10px;
-  margin-left: -30px;
+  margin-left: -20px;
   border: 5px solid transparent;
   box-shadow: 0px 0px 10px white;
   animation-duration: 4s;
