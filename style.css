@@ -1011,7 +1011,7 @@ body {
   color:white;
   line-height: 1.3;
   margin: 0;
-  width: 380px;
+  width: 420px;
   padding: 0;
   z-index: -1;
   animation: transition;
@@ -1468,7 +1468,7 @@ box-shadow: 0px 0px 30px blue;
   margin-bottom: 600px;
   margin-left: 1%;
   justify-content: center;
-  width: 340px;
+  width: 320px;
   height: auto;
   opacity:3;
   animation: div;
