@@ -1532,9 +1532,7 @@ to{
 
 td textarea{
   display: flex;
-  place-content: center;
-  place-items: center;
-  align-items: center;
+  justify-content: center;
   animation: input;
   border-radius: 10px;
   border: 5px solid transparent;
